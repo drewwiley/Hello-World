@@ -2,6 +2,30 @@
 <html>
 
 	<title></title>
+	<style>
+		.center{
+			text-align:center;
+		}
+		h2{
+			color:red;
+			padding: 10px;
+			padding: 10px 20px; /* 10px top/bottom, 20px right and left*/
+			padding: 10px 20px 30px; /*10 top, 20 left/right, 30 bottom*/
+			padding: 10px 10px 10px 10px;
+			padding-top: 10px;
+			padding-right: 20px;
+			border: 10px solid black;
+		}
+		p {
+			color:blue !important;
+		}
+		p {
+			color:green;
+		}
+		.html-header{
+			color: pink !important;
+		}
+	</style>
 </head>
 <body>
  <!-- kjklsdfalkjdsfasdf -->
@@ -10,9 +34,8 @@
  I'm thinking about a big burrito. -->
 	<h2>Hello World</h2>
 
-	<p>HTML 101</p>
-
-	<p>This is a paragraph</p>
+	<p class="html-header">HTML 101</p>
+	<p id="paragraph">This is a paragraph</p>
 
 	<ul>
 			<li>Structural Tags</li>
@@ -29,11 +52,30 @@
 
 		<table class="My Class" id="id" border=1>
 			<tr>
-			<td>1</td>
-			<td>2</td>
-			<td>3</td>
-			</tr>
-		</table>
+				<td>
+					<a href="http://www.espn.com">1</a>
+				</td>
+				<td>
+					<a href="#bottom">Bottom</a>
+				</td>
+				<td>
+					<img src="http://digitalcrafts.com/img/student-will-wyatt.png">
 
+				</td>
+			</tr>
+				<td>4.<span style="color: blue">This is a span</span></td>
+				<td>5</td>
+				<td>6</td>
+		</table>
+		<br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
+		<h2 id="bottom">I am at the bottom</h2>
 </body>
 </html>
+
+
+<center>This is the center</center>
+
+<div class="center">
+This is the center
+</div>
+
